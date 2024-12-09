@@ -115,4 +115,3 @@ Project Link: [https://github.com/your-username/healthmate](https://github.com/y
 - JWT
 ```
 
-Would you like me to modify or expand on any section of the README? I can add more details about specific features, contribution guidelines, or adjust the formatting to suit your preferences.
