@@ -7,6 +7,7 @@ import Login from "../pages/Login";
 import MyAppointments from "../pages/MyAppointments";
 import MyProfile from "../pages/MyProfile";
 import AppLayout from "../AppLayout";
+import Appointment from "../pages/Appointment";
 const useRoute = () => {
   const appRoute = createBrowserRouter([
     {
@@ -40,6 +41,10 @@ const useRoute = () => {
         {
           path: "/profile",
           element: <MyProfile />,
+        },
+        {
+          path: "/appointment/:docId",
+          element: <Appointment />,
         },
       ],
     },
