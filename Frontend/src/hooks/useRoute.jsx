@@ -46,6 +46,10 @@ const useRoute = () => {
           path: "/appointment/:docId",
           element: <Appointment />,
         },
+        {
+          path: "/doctors/:speciality",
+          element: <Doctors />,
+        },
       ],
     },
   ]);

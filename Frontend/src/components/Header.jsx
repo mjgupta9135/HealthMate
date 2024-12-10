@@ -6,8 +6,15 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [token, setToken] = useState(true);
   return (
-    <div className="flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400">
-      <img className="w-52" src={assets.logo1} />
+    <div className="flex cursor-pointer items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400">
+      <img
+        onClick={() => {
+          navigate("/");
+          scrollTo(0, 0);
+        }}
+        className="w-52"
+        src={assets.logo1}
+      />
       <ul className="md:flex items-start hidden gap-5 font-medium">
         <NavLink to="/">
           <li className="py-1 ">HOME</li>
